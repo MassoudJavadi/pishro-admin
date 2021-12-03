@@ -1,0 +1,25 @@
+.searchbar {
+  display: flex;
+}
+.searchbox2 {
+  text-align: right;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 10%;
+  border: none;
+  font-family: Vazir;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.searchButton2 {
+  padding: 10px;
+  background-color: #00cc33;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  font-family: Vazir;
+  font-weight: 100;
+  font-style: normal;
+}

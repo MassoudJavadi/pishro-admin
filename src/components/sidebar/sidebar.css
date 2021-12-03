@@ -1,0 +1,81 @@
+.Container {
+  flex: 1; /*Occupy "1" column or part of total "5" columns of the page"*/
+  overflow: hidden;
+  height: 580px;
+  /* height: calc(
+    100vh - 50px
+  ); preventing slidebar from overflow bottom of the page, 50px is height of navbar */
+  background-color: #fff;
+  position: sticky;
+  top: 50x;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.Container:hover {
+  overflow-y: scroll;
+}
+
+.Flipped {
+  direction: rtl;
+}
+
+.sidebarWrapper {
+  top: 0;
+  height: 620px;
+  padding: 20px;
+  color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.sidebarTitle {
+  font-size: 13px;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sidebarListItem {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  direction: rtl;
+  text-align: right;
+  transition: all 0.4s ease-in-out;
+  color: black;
+  font-family: Vazir;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: orchid;
+}
+
+.sidebarIcon {
+  float: right;
+  margin-left: 5px;
+  font-size: 20px !important;
+}
+
+.chevron {
+  margin-right: 10px;
+}
+
+.gozareshchecklist {
+  font-size: 14px;
+}

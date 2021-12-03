@@ -1,0 +1,171 @@
+.nav {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  position: sticky; /*navbar always stays at the top, with or without scroll */
+  top: 0; /*navbar always stays at  the top, with or without scroll */
+  z-index: 999;
+  font-family: sans-serif, Vazir;
+}
+
+.navWrapper {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #003366;
+  cursor: pointer;
+  font-family: Vazir;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.navIconContainer {
+  position: relative;
+  margin-left: 10px;
+  border-right: purple 3px solid;
+  color: #555;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.navIconContainer2 {
+  position: relative;
+  margin-left: 20px;
+  color: #555;
+  cursor: pointer;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.upperText {
+  text-align: right;
+  color: #696969;
+  cursor: pointer;
+  font-family: Vazir;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.lowerText {
+  text-align: right;
+  color: #a9a9a9;
+  cursor: pointer;
+  font-family: Vazir;
+  font-weight: 100;
+  font-style: normal;
+}
+/*notif number */
+.navIconBadge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 25px;
+  left: -5px;
+  background-color: #26d701;
+  color: #fff;
+  border-radius: 50%; /*make a circle(for notification numbers) from rectangle, with the help of width and height */
+  display: flex; /*centeralize the notif number */
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.navAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 120px;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.txtCon {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.pmtxt {
+  font-family: Vazir;
+  font-weight: bold;
+}
+.mtxt {
+  font-family: Vazir;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.logoImg {
+  width: 35px;
+  height: 35px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 200px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid lightgray;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+  text-align: right;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: none;
+  background: lightgray;
+  text-align: center;
+  color: gray;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,20 @@
+.home {
+  flex: 5;
+  background-color: #ececec;
+}
+
+.homeWidgets {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.searchbarWrapper {
+  margin-left: 750px;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  margin-left: 350px;
+  margin-bottom: 100px;
+}
